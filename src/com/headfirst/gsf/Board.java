@@ -6,7 +6,7 @@ import java.util.List;
 public class Board {
 
 
-    public int width, height, longe;
+    public int width, height, longe, x;
     public List<ArrayList> tiles;
 
 
@@ -14,7 +14,7 @@ public class Board {
         this.width = width;
         this.height = height;
         this.longe = height;
-
+        this.x = 1;
         initialize();
     }
 
