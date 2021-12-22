@@ -6,13 +6,15 @@ import java.util.List;
 public class Board {
 
 
-    public int width, height;
+    public int width, height, longe;
     public List<ArrayList> tiles;
 
 
     public Board(int width, int height) {
         this.width = width;
         this.height = height;
+        this.longe = height;
+
         initialize();
     }
 
